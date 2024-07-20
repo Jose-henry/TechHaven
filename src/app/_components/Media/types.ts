@@ -6,7 +6,7 @@ import type { Media as MediaType } from '../../../payload/payload-types'
 export interface Props {
   src?: StaticImageData // for static media
   alt?: string
-  blurDataURL?: string;
+  blurDataURL?: string
   resource?: string | MediaType // for Payload media
   size?: string // for NextImage only
   priority?: boolean // for NextImage only
