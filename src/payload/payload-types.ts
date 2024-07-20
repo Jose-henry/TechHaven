@@ -170,6 +170,7 @@ export interface Media {
   updatedAt: string;
   createdAt: string;
   url?: string | null;
+  blurDataURL?: string | null;
   filename?: string | null;
   mimeType?: string | null;
   filesize?: number | null;
